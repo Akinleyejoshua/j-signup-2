@@ -1,0 +1,90 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: inline-flex;
+}
+
+.form .card{
+    box-shadow: 0 0 10px gray;
+}
+
+.form .card .card-title{
+    background: darkslateblue;
+}
+
+.form .card .card-title h4{
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+
+.form .card .card-body{
+    text-align: center;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .card .card-body .input{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1em;
+    position: relative;
+}
+
+.form .card .card-body .input input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.form .card .card-body .input .placeholder{
+    color: gray;
+    font-family: monospace;
+    top: 15px;
+    position: absolute;
+    transition: 0.1s;
+}
+
+.input-active{
+    top: 5;
+}
+
+#terms-condition{
+    padding: 1em;
+    color: gray;
+}
+
+.form button{
+    border: 2px solid darkslateblue;
+    background: inherit;
+    padding: 0.5em 2em;
+    border-radius: 5em;
+    color: slateblue;
+}
+
+.form button:hover{
+    background: darkslateblue;
+    color: white;
+}
+
+.success{
+    padding: 1em;
+    color: white;
+    width: 15em;
+    background: lightgreen;
+}
+
+.danger{
+    padding: 1em;
+    color: white;
+    background: rgb(247, 81, 108);
+    width: 15em;
+}
